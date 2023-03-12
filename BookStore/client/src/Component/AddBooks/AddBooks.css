@@ -1,0 +1,68 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+}
+.input{
+    width: 95%;
+    margin: 10px;
+    /* margin-left: 10px; */
+    border-radius: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 5.5vh;
+    padding: 10px;  
+      background-color: rgb(239, 244, 247);
+    border: 1px solid rgb(95, 119, 229);
+
+
+}
+/* .input ::placeholder{
+    align-items: center;
+} */
+.add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    /* border: 2px solid rgb(15, 11, 11); */
+    
+
+}
+
+#form{
+    /* border: 2px solid rgb(201, 41, 41); */
+    padding: 20px;
+    background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+.filename{
+    color: rgb(129, 11, 11);
+}
+
+.editor{
+    margin: 10px;
+    border: 1px solid rgb(95, 119, 229);
+    background-color: rgb(239, 244, 247);
+
+
+}
+/* .editorContainer{
+    padding: 10px;
+} */
+/* .file{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.buttons{
+    padding: 5px;
+    border-radius: 4px;
+} */

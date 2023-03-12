@@ -1,0 +1,148 @@
+.book-details{
+    width: 80%;
+    /* background-color: rgb(218, 236, 239); */
+/* color: aliceblue; */
+    margin-left: 20%;
+    /* margin-top: 65px; */
+    
+}
+#img{
+height: 500px;
+width: 500px;
+flex: 1;
+margin: 50px;
+margin-bottom: 0px;
+border-radius: 40px;
+border: 2px solid black;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(0, 21, 75);
+    
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    /* justify-content:center;
+    align-items: center; */
+    /* margin-right: 10vh; */
+    flex: 1;
+    /* border: 2px solid rgb(108, 104, 63); */
+    background-color: rgb(186, 231, 239);
+border-radius: 40px;
+
+
+margin: 50px;
+
+}
+/* .back{
+    position: fixed;
+    left: -40vh;
+    z-index: 1000;
+} */
+
+
+#icons{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+
+    /* height: 100%; */
+}
+.ic{
+    display: flex;
+    border-bottom: 2px solid rgb(108, 104, 63);
+    padding: 15px;
+    color: rgb(94, 67, 67);
+    background-color: azure;
+    cursor: pointer;
+    text-decoration: solid;
+    font-size:large;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+}
+#icon-link{
+    display: flex;
+    border-bottom: 2px solid rgb(108, 104, 63);
+    padding: 15px;
+    color: rgb(94, 67, 67);
+    background-color: azure;
+    cursor: pointer;
+    text-decoration: solid;
+    font-size:large;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title{
+    color: black;
+    font-size: 60px;
+    /* border-bottom: 2px solid rgb(7, 32, 52); */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+
+  }
+
+  .desc{
+    color: black;
+    font-size: 14px;
+    /* border-bottom: 2px solid rgb(7, 32, 52); */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll ;
+    height: 150px;
+    padding: 30px;
+    margin: 10px;
+  }
+
+  .mrp{
+    color: black;
+    font-size: 30px;
+    /* border-bottom: 2px solid rgb(7, 32, 52); */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+
+  }
+  .price{
+    color: black;
+    font-size: 30px;
+    /* border-bottom: 2px solid rgb(7, 32, 52); */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+  }
+
+  #user{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid rgb(108, 104, 63); */
+
+  }
+
+  .descr{
+    margin: 50px;
+  }
+
+  /* .cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+  } */

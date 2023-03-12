@@ -1,0 +1,87 @@
+body{
+    /* background-color: rgb(228, 162, 222); */
+
+}
+.buylist{
+    width: 80%;
+    /* height: 91%; */
+    /* border: 2px solid rgb(41, 23, 240); */
+    /* background-color: rgb(228, 162, 222); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 20%;
+    /* margin-top: 42px; */
+    margin-top: 2px;
+
+    /* overflow: hidden; */
+    overflow-y: scroll;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    height: 12vh;
+    background-color:rgb(79, 146, 71) ;
+    width: 100%;
+}
+
+h5{
+    text-align: center;
+    margin-top: 4px;
+}
+.buy-btn{
+    width: 30%;
+    align-self: center;
+    justify-content: center;
+}
+.row{
+    display:flex;
+    justify-content: space-around;
+}
+/* link{
+    display:flex;
+    justify-content: space-around;
+    background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+} */
+.link-styles {
+    width: fit-content;
+    text-decoration: none;
+    color: black;
+  }
+  .link-styles :hover{
+    color: black;
+    
+  }
+.search{
+    margin-top: 20px;
+    width: 300px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 35px;
+    margin-bottom: 2px;
+    position: fixed;
+    z-index: 2;
+    opacity: 0.5;
+    border: 2px solid rgb(0, 0, 0);
+
+    /* background-color: aqua; */
+    
+}
+.searchdiv{
+    width: 100%;
+}
+
+.container{
+    margin-top: 50px;
+}

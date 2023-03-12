@@ -1,0 +1,14 @@
+.dashboard{
+    width: 100%;
+    /* background-color: rgb(189, 48, 48); */
+    height: 100vh;
+    margin: 0px;
+}
+
+
+.belownav{
+    display: flex;
+    width: 100%;
+    /* background-color: rgb(66, 38, 59); */
+    height: 100%;
+}

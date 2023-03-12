@@ -1,0 +1,48 @@
+
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: 2px solid red; */
+    z-index: 10000000;
+    padding: 7px;
+    background-color: rgb(196, 208, 255);
+}
+.navbar-brand{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.navbar1{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    margin-top: 0px;
+    
+} 
+
+#search{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: brown; */
+    padding: 3px;
+    margin-right:20px ;
+
+}
+
+#search-cart{
+    display: flex;
+}
+
+
+/* #cart{
+    margin-right:20px ;
+    background-color: rgb(255, 240, 253);
+    border: 2px solid rgb(15, 218, 232);
+    border-radius: 30px;
+    padding: 10px;
+
+} */
+
+.search-placeholder{
+    margin-right: 10px;
+}

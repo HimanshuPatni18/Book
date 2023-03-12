@@ -1,0 +1,15 @@
+body{
+  padding: 0;
+  margin: 0;
+  
+  height: 1000px;
+}
+
+*{
+  background-color: rgb(136, 229, 198);
+  border: 8px solid red;
+  z-index: 1000;
+  height: 1000px;
+
+
+}
